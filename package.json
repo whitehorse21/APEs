@@ -1,0 +1,58 @@
+{
+  "name": "react-responsive-navbar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "@vechain/connex": "^2.0.9",
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.1",
+    "is-empty": "^1.2.0",
+    "jquery": "^3.6.0",
+    "jwt-decode": "^3.1.2",
+    "netlify-cli": "^9.13.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-paginate": "^8.1.2",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-slick": "^0.28.1",
+    "redux": "^4.1.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.49.9",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

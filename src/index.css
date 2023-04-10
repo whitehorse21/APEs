@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Red Rose', cursive;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('./images/bg.svg') no-repeat center center fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
