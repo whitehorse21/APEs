@@ -24,15 +24,10 @@ function App() {
             <Route exact path="/fusion-collections" component={FusionCollection} />
             <Route exact path="/collections" component={CollectionPage} />
             <Route exact path="/fusion" component={FusionHome} />
-            <Route path="/ape-world"
-            render={() => <Construction title="Ape World" />} />
-            <Route path="/mint"
-            render={() => <Construction title="Mint Page" />} />
-
+            <Route path="/ape-world" render={() => <Construction title="Ape World" />} />
+            <Route path="/mint" render={() => <Construction title="Mint Page" />} />
             <Route exact path="/coming-soon" component={ComingSoon} />
-            <Route path="/coming-fusion"
-            render={() => <ComingSoon withImage={true} />} />
-
+            <Route path="/coming-fusion" render={() => <ComingSoon withImage={true} />} />
           </Switch>
           <ScrollToTopBtn />
         </div>
