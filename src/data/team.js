@@ -2,19 +2,18 @@ import nero from "../images/apes/team/nero.svg";
 import nikky from "../images/apes/team/nikky.svg";
 import shin from "../images/apes/team/shin.svg";
 
-import fnero from '../images/v2/nero.png';
-import fnikky from '../images/v2/nikky.png';
-import fshin from '../images/v2/shin.png';
-
+import fnero from "../images/v2/nero.png";
+import fnikky from "../images/v2/nikky.png";
+import fshin from "../images/v2/shin.png";
 
 const alphaTeam = [
   {
-    name: "Nikky", 
-    image: nikky, 
-    position: "Team Member", 
+    name: "Nikky",
+    image: nikky,
+    position: "Team Member",
     twitter: "/#",
     discord: "/#",
-    instagram: "/#"
+    instagram: "/#",
   },
   {
     name: "Nero",
@@ -22,27 +21,18 @@ const alphaTeam = [
     position: "Team Leader",
     twitter: "/#",
     discord: "/#",
-    instagram: "/#"
-  }
-  /*,
-  {
-    name: "Shin",
-    image: shin,
-    position: "Team Member",
-    twitter: "/#",
-    discord: "/#",
-    instagram: "/#"
-  }*/
+    instagram: "/#",
+  },
 ];
 
 const fusionTeam = [
   {
-    name: "Nikky", 
-    image: fnikky, 
-    position: "Team Member", 
+    name: "Nikky",
+    image: fnikky,
+    position: "Team Member",
     twitter: "/#",
     discord: "/#",
-    instagram: "/#"
+    instagram: "/#",
   },
   {
     name: "Nero",
@@ -50,18 +40,8 @@ const fusionTeam = [
     position: "Team Leader",
     twitter: "/#",
     discord: "/#",
-    instagram: "/#"
+    instagram: "/#",
   },
-  /*
-  {
-    name: "Shin",
-    image: fshin,
-    position: "Team Member",
-    twitter: "/#",
-    discord: "/#",
-    instagram: "/#"
-  }
-  */
 ];
 
 export { alphaTeam, fusionTeam };
